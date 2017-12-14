@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_imc"
+            android:icon="@drawable/ic_menu_imc"
+            android:title="IMC" />
+        <item
+            android:id="@+id/nav_calculadora"
+            android:icon="@drawable/ic_calculator"
+            android:title="Calculadora" />
+    </group>
+
+    <item android:title="Conversores">
+        <menu>
+            <item
+                android:id="@+id/nav_medida"
+                android:icon="@drawable/ic_ruler"
+                android:title="Medidas" />
+            <item
+                android:id="@+id/nav_peso"
+                android:icon="@drawable/ic_scale"
+                android:title="Peso" />
+            <item
+                android:id="@+id/nav_temperatura"
+                android:icon="@drawable/ic_thermometer"
+                android:title="Temperatura" />
+        </menu>
+    </item>
+
+</menu>
